@@ -4,6 +4,7 @@ A python utility for printing out dictionary contents in an easily readable form
 # Requirements
 Python 3.11 (untested on earlier versions)
 
+# Usage
 Example:
 
     from DictPrint import dict_print
