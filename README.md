@@ -3,6 +3,8 @@ A python utility for printing out dictionary contents in an easily readable form
 
 Example:
 
+    from DictPrint import dict_print
+
     dict_print(<book data>)
 
 Result:
