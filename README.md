@@ -1,6 +1,9 @@
 # DictionaryPrint
 A python utility for printing out dictionary contents in an easily readable format.
 
+# Requirements
+Python 3.11 (untested on earlier versions)
+
 Example:
 
     from DictPrint import dict_print
