@@ -42,7 +42,8 @@ Example:
         <random data>,
         num_format=".3e",
         pad_char="=",
-        sort_kwargs={"reverse": True, "key": lambda x: len(x)}, # equivalent to the shortcut `sort_kwargs="revlen"`
+        sort_kwargs={"reverse": True, "key": lambda x: len(x)},
+        # equivalent to the shortcut `sort_kwargs="revlen"`
     )
 
 Result:
