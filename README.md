@@ -40,7 +40,7 @@ Example:
         <random data>,
         num_format=".3e",
         pad_char="=",
-        sort_kwargs={"reverse": True, "key": lambda x: len(x)},
+        sort_kwargs={"reverse": True, "key": lambda x: len(x)}, # equivalent to the shortcut `sort_kwargs="revlen"`
     )
 
 Result:
@@ -63,4 +63,21 @@ Result:
     ==== EOQ: ('0.000e+00', '1.000e+00', '2.000e+00', '3.000e+00')
 
 
-    
+# Config
+
+    dict_print(
+        data,                # The dictionary structure to be printed
+        level_char=">",      # Indicates the key of the current dictionary
+        offset_char=" ",     # Used for spacing between levels
+        pad_char="_",        # Used for padding names/values
+        rounding=None,       # Optional rounding for numbers, specified as an integer. Higher priority than num_format
+        num_format=None,     # Standard python number formatting specified (Ex: ".3f")
+        sort_kwargs=None,    # A dictionary with kwargs for the .sort function are passed unless "len" or "revlen" are specified, which sort by length
+        compact=False,       # If enabled then the first value for a given key is printed on the same line as the key instead of the next line
+        exclude=None,        # A list of any keys to NOT print (applies to all levels of nesting)
+        _offset=0,           # Internal
+        _first=False,        # Internal
+    )
+
+![image](https://github.com/nhansendev/DictionaryPrint/assets/9289200/df104966-7ecf-46f6-bf52-fca50ad08f05)
+
