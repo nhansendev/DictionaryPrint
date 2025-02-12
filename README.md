@@ -7,7 +7,7 @@ Python 3.11 (untested on earlier versions)
 # Usage
 Example:
 
-    from DictPrint import dict_print
+    from dict_print import dict_print
 
     dict_print(<book data>)
 
