@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dict_print/dict_print.py
+dict_print.egg-info/PKG-INFO
+dict_print.egg-info/SOURCES.txt
+dict_print.egg-info/dependency_links.txt
+dict_print.egg-info/top_level.txt

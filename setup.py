@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="dictionaryprint",
+    name="dict_print",
     version="0.1.0",
     description="Fancy printing of dictionaries in a human-readable format",
     url="https://github.com/nhansendev/DictionaryPrint",
