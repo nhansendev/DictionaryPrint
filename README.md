@@ -4,10 +4,26 @@ A python utility for printing out dictionary contents in an easily readable form
 # Requirements
 Python 3.11 (untested on earlier versions)
 
+# Installation
+From within DictionaryPrint folder:
+```
+pip install .
+```
+
+Alternatively:
+```
+pip install git+https://github.com/nhansendev/DictionaryPrint
+```
+
+To uninstall:
+```
+pip uninstall dict_print
+```
+
 # Usage
 Example:
 
-    from DictPrint import dict_print
+    from dict_print import dict_print
 
     dict_print(<book data>)
 
